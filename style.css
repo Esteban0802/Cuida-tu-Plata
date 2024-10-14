@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #122636;
+}
+
+.img-sello-verde{
+    justify-content: center;
+}
+
+.fila1{
+    background-image: url(./media/Template\ Presentación\ Cuida\ tu\ plata.png);
+    background-size: cover;
+}
+
+.btn{
+    background-color: #122636;
+}
+
+.text-btn{
+    color: #ededed;
+}
+
+.form-control {
+    font-size: .8rem;
+}
+
+
+.cont-contacto {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-around;
+    background-color: #ededed;
+}
+
+.cont-contacto .form {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto 20px auto;
+    padding: 0px 10px;
+}
+
+.cont-contacto .form input {
+    height: 30px;
+    width: 100%;
+    border: solid;
+    border-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+}
+
+.cont-contacto .form textarea {
+    height: 100px;
+    width: 100%;
+    border: solid;
+    border-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+}
+
+.cont-contacto .form .btn {
+    font-family: "Abel", sans-serif;
+    border-radius: 2px;
+    width: 80px;
+    color: white;
+    background-color: #122636;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+
+footer{
+    background-color: #00b573;
+}
